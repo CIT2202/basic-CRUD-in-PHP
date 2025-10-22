@@ -16,7 +16,7 @@ git clone https://github.com/CIT2202/basic-CRUD-in-PHP
 
 This will copy the contents of this repository into your codespace.
 
-- Back in the codespace, from the _basic-CRUD-in-PHP_ folder, open _index.php_. Change the connection settings to match your database and enviornment. This is the line you need to change
+- From the _basic-CRUD-in-PHP_ folder, open _index.php_. Change the connection settings to match your database and enviornment. This is the line you need to change
 
 ```
     $conn = new PDO('mysql:host=localhost;dbname=MyDatabase', 'MyUsername', 'MyPassword');
@@ -29,7 +29,7 @@ You will need to change it to:
 ```
 
 - Start Apache (`apache2ctl start`)
-- Browse to the _basic-CRUD-in-PHP_ folder. You should see the _index.php_ page displayed. it should be showing the list of films from the database.
+- Browse to the _basic-CRUD-in-PHP_ folder. You should see the _index.php_ page displayed. It should be showing the list of films from the database.
 
 Now move onto [Completing the practical work](#practical)
 
