@@ -33,6 +33,5 @@ $stmt->execute();
 $conn = NULL;
 //Redirect the user to the home page
 header('Location: index.php');
-die();
 
 ?>
