@@ -2,11 +2,6 @@
 
 These examples demonstrate the use of PDO to implement CRUD (Create, Read, Update, Delete) functionality for a simple web application.
 
-- [Follow these instructions if you are using Codespaces](#codespaces)
-- [Follow these instruction if you are using XAMPP](#xampp)
-
-## If you are using Codespaces <a name="codespaces"></a>
-
 - Open your existing codespace (DON'T CREATE A NEW ONE) [https://github.com/codespaces](https://github.com/codespaces).
 - In the terminal enter
 
@@ -25,31 +20,12 @@ This will copy the contents of this repository into your codespace.
 You will need to change it to:
 
 ```
-    $conn = new PDO('mysql:host=db;dbname=cht2520', 'root', 'secret');
+    $conn = new PDO('mysql:host=db;dbname=webdev', 'student', 'secret');
 ```
 
-- Start Apache (`apache2ctl start`)
 - Browse to the _basic-CRUD-in-PHP_ folder. You should see the _index.php_ page displayed. It should be showing the list of films from the database.
 
-Now move onto [Completing the practical work](#practical)
-
-## If you are using XAMPP <a name="xampp"></a>
-
-- Download this repository and unzip it. Move the folder into your _htdocs_ directory on XAMPP.
-
-- Start with _index.php_. In the PHP code, change the connection settings to match your database. This is the line you need to change
-
-```
-    $conn = new PDO('mysql:host=localhost;dbname=MyDatabase', 'MyUsername', 'MyPassword');
-```
-
-You will need to change _MyDatabase_ to cht2520, and _MyUsername_ and _MyPassword_ to match the username and password you entered.
-
-- View _index.php_ in a browser. You should see a list of films.
-
-Now move onto [Completing the practical work](#practical).
-
-## Completing the practical work <a name="practical"></a>
+## Completing the practical work 
 
 - Have a good look through the code in _index.php_. Make sure you understand what each line of code is doing.
 
